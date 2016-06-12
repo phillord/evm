@@ -1,5 +1,5 @@
 recipe 'emacs-25-pre-travis' do
-  tar_gz 'https://github.com/rejeep/evm/releases/download/v0.8.0/emacs-25-pre-travis.tar.gz'
+  tar_gz 'http://www.russet.org.uk/scratch/emacs-25-pre-travis.tgz'
 
   install do
     copy build_path, installations_path
